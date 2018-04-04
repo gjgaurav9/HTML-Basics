@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+</head>
+<body>
+
+<table style="width:100%">
+  
+  	<a href="">link 1</a>
+	<a href="">link 2</a>
+  
+</table>
+
+</body>
+</html>
