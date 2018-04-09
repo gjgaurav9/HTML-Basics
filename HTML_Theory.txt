@@ -1,0 +1,12 @@
+Container:
+Containers basically don't have meaning of there own they are rather the way to group the elements which serves the same purpose. They also help us in writing javascript and CSS.
+
+1. nav: mainly it shows the navigation part of the HTML page.
+2. header: head content of the page.
+3. footer: Footer deal with the information which usually come to the end of the page(or not so important).
+4. main: it deals with the main.
+5. article: main content of the page.
+6. section: section in all the other containers can be denoted by this.
+7. aside: Content which is somewhat related to the page but cannot be the part of.
+8. div: it can be used if any of the above containers cannot be used. It has no meaning no specific semantics. Just a wrapper.
+
