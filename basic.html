@@ -1,126 +1,159 @@
 <!DOCTYPE html>
 <html>
-<head>
-<style>
-div.container {
-    width: 100%;
-	height: 100%;
-    border: 1px solid gray;
-}
+	<head>
+		<style>
+		.container {
+			width: 100%;
+			border: 1px solid gray;
+		}
 
-header, footer {
-    padding: 1em;
-    color: white;
-    background-color: blue;
-    clear: left;
-    text-align: center;
-}
+		header, footer {
+			padding: 1em;
+			color: white;
+			background-color: blue;
+			clear: left;
+			text-align: center;
+		}
 
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-}
+		ul {
+			list-style-type: none;
+			margin: 0;
+			padding: 0;
+		}
 
-header ul li{
-	 margin-left: 50px;
-	 margin-right: 50px;
-	 display: inline;
-}
+		header ul li{
+			 margin-left: 50px;
+			 margin-right: 50px;
+			 display: inline;
+		}
 
-header ul li a {
-	color:white
-}
+		header ul li a {
+			color:white
+		}
 
-<!---li {
-    display: inline;
-	color:white
-}-->	
+		article {
+			margin-left: 450px;
+			margin-right: 450px;
+			padding: 1em;
+			overflow: hidden;
+		}
 
-article {
-    margin-left: 450px;
-	margin-right: 450px;
-    padding: 1em;
-    overflow: hidden;
-}
+		article p{
+			margin-left: 50px;
+			margin-right: 50px;
+		}
+		
+		.grid-container {
+			  display: grid;
+			  grid-template-columns: auto auto;
+			  background-color: white;
+			  grid-row-gap: 50px;
 
-p{
-    margin-left: 50px;
-	margin-right: 50px;
-}
+		}
+		
+		.grid-item {
+			  margin-left: 100px;
+			  margin-right: 100px;
+			  height:150px;
+			  width:350px;
+			  background-color: blue;
+			  border-radius: 25px;
+			  border: 1px solid rgba(0, 0, 0, 0.8);
+			  padding: 20px;
+			  text-align: center;
+			  color:white;
+		}
+		
+		button{
+			background-color: red;
+			color:white;	
+			text-align: left;
+			border: none;
+			
+		}
+		
+		.circle {
+			  height: 50px;
+			  width: 50px;
+			  background-color: none;
+			  border-radius: 50%;
+			  border: 1px solid rgba(0, 0, 0, 0.8);
 
+		}
+		
+		h3{
+			text-align:center;
+			color:blue;
+		
+		}
+		
+		
+		</style>
 
-section{
-	margin-left: 20px;
-	margin-right: 20px;
-	border-radius: 25px;
-    background: blue;
-	color: white;
-    padding: 20px; 
-    width: 350px;
-    height: 120px; 
-    border: 5px solid red;
+	</head>
+	<body>
 
-}
+		<div class="container">
 
-#rcorners1 {
-    border-radius: 25px;
-    background: #73AD21;
-    padding: 20px; 
-    width: 200px;
-    height: 150px;    
-}
+			<header>
+			   <ul>
+				<li><a href="#">Homes</a></li>
+				<li><a href="#">Services</a></li>
+				<li><a href="#">Products</a></li>
+				<li><a href="#">Books and Blocks</a></li>
+				<li><a href="#">Contacts</a></li>
+			  </ul>
+			</header>
+			  
 
+			<article>
+			  <h3 style="color:black">We are committed to give you the best services</h3>
+			  <p>We provide software development and troubleshooting.Our customer are 100% satisfied with us.</p>
+			 <center> <button type="button" style="height:50px; width:100px; background-color:blue">Work with us</button><center>
 
-</style>
+			</article>
+		</div>
+		
+		<br>
+		<br>
+		<h3>Our Recent Projects</h3>
+		<div class="grid-container">
+		  <div class="grid-item">
+			   <h3 style="color:white">Customer Relationship Manager</h3>
+			   <p style="text-align:left">CRM is a online software management. We provide software development and troubleshooting.Our customer are 100% satisfied with us.</p> 
+			   <form style="text-align: left">
+					<button type="button">Read More</button>
+			   </form>
+		  </div>
+		  <div class="grid-item"></div>
+		  <div class="grid-item"></div>  
+		  <div class="grid-item"></div>
+ 
+		</div>
+		
+		<br>
+		<br>
+		<hr>
+		
+		<h3>Testimonial</h3>
 
-
-</head>
-<body>
-
-<div class="container">
-
-<header>
-   <ul>
-    <li><a href="#">Homes</a></li>
-    <li><a href="#">Services</a></li>
-    <li><a href="#">Products</a></li>
-    <li><a href="#">Books and Blocks</a></li>
-    <li><a href="#">Contacts</a></li>
-  </ul>
-</header>
-  
-
-<article>
-  <h3>We are committed to give you the best services</h3>
-  <p>We provide software development and troubleshooting.Our customer are 100% satisfied with us.</p>
-</article>
-</div>
-<div style="width:380px" >
-	<section>
-		<h4>Customer Relationship Manager</h4>
-		<p>CRM is a online software management</p>
-
-	</section>
-
-
-	<section>
-	</section>
-
-
-	<section>
-	</section>
-
-
-	<section>
-	</section>
-
-</div>
-
-<div>
-<footer>&copy; Copyright to Gaurav Java RnD</footer>
-
-</div>
-
-</body>
+		
+		<div class="grid-container">
+			  <div class="grid-item" style ="background-color: white; height:50px; width:350px;">
+					<div class="circle">
+					</div>
+			  </div>  
+			  <div class="grid-item" style ="background-color: white; height:50px; width:350px;">
+					<div class="circle left top">
+					</div>
+			  </div>
+		  
+		 </div>
+		 <br>
+		 <br>
+		<div class="container">
+			<footer>&copy; Copyright to Gaurav Java RnD</footer>
+		</div>
+		
+	</body>
 </html>

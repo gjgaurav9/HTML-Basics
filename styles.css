@@ -1,0 +1,100 @@
+.container {
+	width: 100%;
+	border: 1px solid gray;
+}
+
+header, footer {
+	padding: 1em;
+	color: white;
+	background-color: blue;
+	clear: left;
+	text-align: center;
+}
+
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+header ul li {
+	margin-left: 50px;
+	margin-right: 50px;
+	display: inline;
+}
+
+header ul li a {
+	color: white
+}
+
+article {
+	margin-left: 450px;
+	margin-right: 450px;
+	padding: 1em;
+	overflow: hidden;
+}
+
+article p {
+	margin-left: 50px;
+	margin-right: 50px;
+}
+
+.grid-container {
+	display: grid;
+	grid-template-columns: auto auto;
+	background-color: white;
+	grid-row-gap: 50px;
+}
+
+.grid-item {
+	margin-left: 100px;
+	margin-right: 100px;
+	height: 180px;
+	width: 350px;
+	background-color: blue;
+	border-radius: 25px;
+	border: 1px solid gray;
+	text-align: center;
+	color: white;
+}
+
+.grid-item p{
+		margin-left: 10px;
+
+}
+
+.grid-item button{
+		margin-left: 10px;
+
+}
+
+button {
+	background-color: red;
+	color: white;
+	text-align: center;
+	border: none;
+}
+
+article button{
+	height: 40px; width: 130px; background-color: blue;     border-radius: 40px / 10px;
+}
+
+
+.circle {
+	
+	 padding-left:0px;
+ margin-left:0px;
+ margin-top:0px;
+	
+	
+	height: 50px;
+	width: 50px;
+	background-color: none;
+	border-radius: 50%;
+	border: 1px solid gray;
+}
+
+h3 {
+	text-align: center;
+	color: blue;
+}
