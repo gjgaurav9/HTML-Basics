@@ -17,7 +17,7 @@ footer {
 	background-color: #4d4d33;
 	clear: left;
 	text-align: left;
-	height:70px;
+	height: 70px;
 }
 
 ul {
@@ -43,17 +43,16 @@ article {
 	overflow: hidden;
 }
 
-article button{
+article button {
 	height: 40px;
 	width: 130px;
 	background-color: #3366cc;
-	border-radius: 40px / 10px;
+	border-radius: 40px/10px;
 }
 
-article h3{
+article h3 {
 	color: black;
 }
-
 
 article p {
 	margin-left: 50px;
@@ -79,14 +78,12 @@ article p {
 	color: white;
 }
 
-.grid-item p{
-		margin-left: 10px;
-
+.grid-item p {
+	margin-left: 10px;
 }
 
-.grid-item button{
-		margin-left: 10px;
-
+.grid-item button {
+	margin-left: 10px;
 }
 
 button {
@@ -97,10 +94,9 @@ button {
 }
 
 .circle {
-	
-	padding-left:0px;
-	margin-left:5px;
-	margin-top:5px;
+	padding-left: 0px;
+	margin-left: 5px;
+	margin-top: 5px;
 	height: 50px;
 	width: 50px;
 	background-color: none;
@@ -108,29 +104,29 @@ button {
 	border: 1px solid gray;
 }
 
-h3{
+h3 {
 	text-align: center;
 	color: #3366cc;
 }
 
-aside .grid-container .grid-item{
+aside .grid-container .grid-item {
 	background-color: white;
 	height: 100px;
 	width: 350px;
 }
 
-form{
+form {
 	text-align: left;
 }
 
-section h3{
+section h3 {
 	color: white;
 }
 
-section p{
+section p {
 	text-align: left;
 }
 
-.articlecolor{
-		background-color:#ccccff;
+.articlecolor {
+	background-color: #ccccff;
 }
